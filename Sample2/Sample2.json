@@ -1,0 +1,103 @@
+{
+  "projectName" : "Sample2",
+  "projectDescription" : "",
+  "comment" : "Default Comment",
+  "projectType" : "SEGM",
+  "createdDate" : "2021/12/26 23:12:44",
+  "modifyDate" : "2021/54/26 23:54:14",
+  "version" : "1.0.0",
+  "projectPath" : "D:\\GSOC 2021\\INCF",
+  "pluginPath" : [ "D:\\GSOC 2021\\ImageJ\\plugins\\activeSegmentation\\ACTIVE_SEG.jar" ],
+  "trainingStack" : "",
+  "testingStack" : "",
+  "filters" : [ {
+    "G_SEP" : "false",
+    "Filter" : "GAUSSIAN Jet",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "G_Yn" : "0",
+    "G_SCNORM" : "false",
+    "enabled" : "false",
+    "G_Xn" : "1"
+  }, {
+    "G_SEP" : "true",
+    "Filter" : "LOG",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "G_SCNORM" : "false",
+    "enabled" : "false"
+  }, {
+    "G_slen" : "4",
+    "Filter" : "STRUCTURE",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "Full_out" : "false",
+    "enabled" : "true"
+  }, {
+    "Filter" : "CURVATURE",
+    "G_MAX" : "8",
+    "enabled" : "true",
+    "GK_len" : "2"
+  }, {
+    "G_SEP" : "false",
+    "Filter" : "GAUSSIAN",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "G_Yn" : "0",
+    "G_SCNORM" : "false",
+    "enabled" : "true",
+    "G_Xn" : "1"
+  }, {
+    "G_SEP" : "true",
+    "Filter" : "BOG",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "G_iso" : "true",
+    "enabled" : "true"
+  }, {
+    "Filter" : "ALOG",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "Full_out" : "false",
+    "enabled" : "true"
+  }, {
+    "Filter" : "FLOG",
+    "G_len" : "1",
+    "G_MAX" : "9",
+    "enabled" : "true"
+  }, {
+    "Filter" : "HESSIAN",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "Full_out" : "false",
+    "enabled" : "true"
+  }, {
+    "Filter" : "FGAUSS",
+    "G_len" : "1",
+    "G_MAX" : "9",
+    "enabled" : "true"
+  } ],
+  "featureList" : [ {
+    "key" : "c716ba04-1a42-4c3b-ac74-b5a26f7c15f8",
+    "label" : "label0",
+    "zipFile" : "ROISETc716ba04-1a42-4c3b-ac74-b5a26f7c15f8.zip",
+    "color" : -52429,
+    "trainingList" : {
+      "blobs1.gif" : [ "0229-0181", "0183-0180", "0015-0249" ]
+    },
+    "testingList" : { }
+  }, {
+    "key" : "d109a626-aa54-4103-ac28-b836cbbf5761",
+    "label" : "label1",
+    "zipFile" : "ROISETd109a626-aa54-4103-ac28-b836cbbf5761.zip",
+    "color" : -16711936,
+    "trainingList" : {
+      "blobs1.gif" : [ "0131-0194", "0193-0045", "0047-0110" ]
+    },
+    "testingList" : { }
+  } ],
+  "learning" : { },
+  "groundtruth" : "",
+  "featureSelection" : "Principle Component Analysis",
+  "classes" : 2
+}
