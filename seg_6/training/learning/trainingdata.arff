@@ -1,0 +1,5 @@
+@relation segment
+
+@attribute class {label2,label0,label1}
+
+@data

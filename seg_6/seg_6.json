@@ -1,0 +1,66 @@
+{
+  "projectName" : "seg_6",
+  "projectDescription" : "shapes",
+  "comment" : "Default Comment",
+  "version" : "1.0.5",
+  "projectType" : "CLASSIF",
+  "createdDate" : "2021/43/30 18:43:58",
+  "modifyDate" : "2021/28/06 15:28:32",
+  "projectPath" : "G:\\ASPIJ\\seg_6",
+  "pluginPath" : [ "G:\\\\ImageJ\\\\plugins\\activeSegmentation\\ACTIVE_SEG.jar" ],
+  "trainingStack" : "",
+  "testingStack" : "",
+  "filters" : [ {
+    "Filter" : "LM",
+    "Degree" : "6",
+    "enabled" : "true"
+  }, {
+    "Filter" : "ZMC",
+    "Degree" : "4",
+    "enabled" : "true"
+  }, {
+    "Filter" : "GLCM",
+    "enabled" : "true"
+  } ],
+  "featureList" : [ {
+    "key" : "0164dfb3-c304-4731-9c7c-12adc2d52935",
+    "label" : "label2",
+    "zipFile" : "ROISET0164dfb3-c304-4731-9c7c-12adc2d52935.zip",
+    "color" : -65536,
+    "trainingList" : {
+      "img11.png" : [ "0056-0046", "0057-0099", "0136-0020", "0042-0024", "0094-0083" ],
+      "img01.png" : [ "0020-0138", "0107-0147", "0131-0017", "0056-0013", "0106-0169" ]
+    },
+    "testingList" : { }
+  }, {
+    "key" : "4461bc1e-9eae-4a48-8be5-5be36c5b50bf",
+    "label" : "label0",
+    "zipFile" : "ROISET4461bc1e-9eae-4a48-8be5-5be36c5b50bf.zip",
+    "color" : -16776961,
+    "trainingList" : {
+      "img11.png" : [ "0084-0201", "0204-0148", "0123-0068", "0214-0035", "0014-0082" ],
+      "img01.png" : [ "0119-0213", "0058-0084", "0181-0036", "0193-0144" ]
+    },
+    "testingList" : { }
+  }, {
+    "key" : "e15fb094-915f-4d3b-ab46-9a1c51881115",
+    "label" : "label1",
+    "zipFile" : "ROISETe15fb094-915f-4d3b-ab46-9a1c51881115.zip",
+    "color" : -16711936,
+    "trainingList" : {
+      "img11.png" : [ "0118-0134", "0180-0063", "0160-0021", "0071-0075" ],
+      "img01.png" : [ "0107-0055", "0168-0103", "0220-0060", "0094-0134" ]
+    },
+    "testingList" : { }
+  } ],
+  "groundtruth" : "",
+  "learning" : {
+    "optionList" : [ ],
+    "featureSelection" : "Active Learning",
+    "learningOption" : "NONE",
+    "classifierFile" : "classifier.model",
+    "arffFile" : "trainingdata.arff"
+  },
+  "featureNames" : { },
+  "classes" : 2
+}
